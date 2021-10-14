@@ -13,9 +13,11 @@ This directory contains 100 .fsa plasmid genomes, and 3 .tsv metadata files.
 
 ## Generating Mash edgelist
 
-1) `cat ./*.fsa > ./plasmids.fsa`
+1) `cd ./network_demo`
 
-2) `mash triangle -E ./plasmids.fsa > ./edgelist.tsv`
+2) `cat ./*.fsa > ./plasmids.fsa`
+
+3) `mash triangle -E ./plasmids.fsa > ./edgelist.tsv`
 
 
 
